@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Look Logs App</title>
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center">
+          <div class="col">
+              <div class="d-flex justify-content-center">
+                <form action="/to-log" method="post"> 
+                    <div class="row align-items-center">
+                        <div class="col-auto">
+                            <input type="text" class="form-control" name="logText" id="logText" aria-describedby="logText">
+                        </div>
+                        <div class="col-auto">
+                            <button class="btn btn-primary" type="submit">Send to Log</button>
+                        </div>
+                    </div>
+                  </form>
+              </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
